@@ -1,0 +1,166 @@
+a, h1, h2, h3, div, body, html, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    
+  }
+
+  img{vertical-align:text-bottom}
+ 
+  /* <-----Header stuff overall and p------>*/
+
+
+
+.FirstPage {
+  width: 1260px;
+  height: 590px;
+background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+background-size: 100% 100%;
+font-family: "Dancing Script";
+}
+
+.HeaderMains{
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  color:white;
+  font-size: larger;
+
+  
+}
+
+#Header2 {
+  margin-left: 40px;
+  margin-top: 30px;
+
+
+}
+
+.Header1 {
+  margin-top: 30px;
+  padding-right: 40px;
+
+}
+a {
+
+  text-decoration: none;
+  color: white;
+}
+
+.Phreshy1 {
+text-align: center;  
+margin-top: 150px;
+color: white;
+font-size: 200%;
+
+
+}
+
+.Phreshy1 p {
+
+  font-family: "Caveat" ;
+}
+hr {
+  border-color: white;
+  border-width: 1.5px;
+}
+
+/* The second page css */
+
+.SecondPage img {
+  float: left;
+  padding-right: 100px;
+  vertical-align: middle;
+
+}
+
+
+.SecondPage {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.Secpgpgraph {
+  color: white;
+  width: 40%;
+}
+
+.Secpgpgraph h1 {
+  margin-bottom: 20px;
+  font-family: "Dancing Script";
+
+}
+
+.Secpgpgraph p {
+  font-family: "Caveat";
+}
+
+/*Third page css*/
+.ThirdPage{
+ display:flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: rgb(27, 27, 27);
+}
+
+.Thirdimg {
+
+  padding-left: 100px;
+}
+
+
+.ThrdPara {
+  margin-left: 100px;
+  vertical-align: middle;
+  color: white;
+  width: 40%;
+  font-family: "Caveat";
+  
+
+
+
+}
+
+.ThrdPara h1 { 
+  margin-bottom: 20px;
+  font-family: "Dancing Script";
+
+
+}
+
+/* fourth page css */
+
+
+
+.FourPage img {
+  float: left;
+  vertical-align: middle;
+
+}
+
+
+.FourthPage {
+  display: flex;
+  align-items: center;
+  background-color: rgb(66, 66, 66);
+  margin-bottom: auto;
+
+}
+
+.FourthPara {
+  color: white;
+  width: 40%;
+  margin-left: 100px;
+}
+
+.FourthPara h1 {
+  margin-bottom: 20px;
+  font-family: "Dancing Script";
+
+}
+
+.FourthPara p {
+  font-family: "Caveat";
+}
